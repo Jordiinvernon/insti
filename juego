@@ -1,0 +1,32 @@
+print ('BIENVENIDO AL JUEGO DE JORDI')
+print('En este juego tengo que adivinar el número que piensas.')
+print('Piensa un número.')
+print('Primero multiplica por 3 tu número.')
+azul = int(input("Introduzca tu número: "))
+rosa = int(input("Introduzca el 3: "))
+print("Resultado: ", azul * rosa)
+
+print('Ahora sumale 14.')
+naranja = int(input("Introduzca el resultado anterior: "))
+rojo = int(input("Introduzca el 14: "))
+print("Resultado: ", naranja + rojo)
+
+print('sumale el número que pensaste.')
+naranj = int(input("Introduzca el resultado anterior: "))
+roj = int(input("Introduzca tu número: "))
+print("Resultado: ", naranj + roj)
+
+print('Ahora restale 2.')
+verde = int(input("Introduzca el resultado anterior: "))
+morado = int(input("Introduzca el 2: "))
+print("Resultado: ", verde - morado)
+
+print('Ahora divide entre 4.')
+blanco = int(input("Introduzca el resultado anterior: "))
+negro = int(input("Introduzca el 4: "))
+print("Resultado: ", blanco / negro)
+
+print('Por último restale 3.')
+dios = int(input("Introduzca el resultado anterior: "))
+demonio = int(input("Introduzca el 3: "))
+print("Tu número és: ", dios - demonio)
