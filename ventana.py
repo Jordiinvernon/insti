@@ -1,7 +1,20 @@
 from tkinter import *
-
 ventana = Tk()
-ventana.config(bg='white')
-ventana.geometry("500x500")
+ventana.title('Jordi Invernón')
+ventana.config(bg="white")
+
+pantalla = Frame()
+etiqueta1 = Label(pantalla, text='¡Hola Mundo 1') 
+etiqueta1.place(x=230, y=75) 
+etiqueta2 = Label(pantalla, text='¡Hola Mundo 3') 
+etiqueta2.place(x=230, y=225) 
+etiqueta3= Label(pantalla, text='¡Hola Mundo 5') 
+etiqueta3.place(x=230, y=400) 
+
+pantalla.pack(side=TOP, anchor=W)
+pantalla.config(width=600, height=600)
+pantalla.config(bg='pink')
+pantalla.config(bd=20)
+pantalla.config(relief='sunken')
+pantalla.config(cursor='hand2')
 ventana.mainloop()
-ventana.resizable(1,1)
