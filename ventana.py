@@ -3,7 +3,7 @@ ventana = Tk()
 ventana.title('Jordi Invernón')
 ventana.config(bg="white")
 
-pantalla = Frame()
+pantalla = Frame(ventana)
 etiqueta1 = Label(pantalla, text='¡Hola Mundo 1') 
 etiqueta1.place(x=230, y=75) 
 etiqueta2 = Label(pantalla, text='¡Hola Mundo 3') 
